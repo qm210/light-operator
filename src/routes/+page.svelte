@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import ConfigInterface from "$lib/ConfigInterface.svelte";
+</script>
+
+<h1 class="text-4xl font-extrabold text-center m-4">
+	The Operatoratorium of Lights wishes you welcome
+</h1>
+<p class="m-4 text-gray-600 text-center text-xs">
+	and good luck.
+</p>
+
+<ConfigInterface/>
